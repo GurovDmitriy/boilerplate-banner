@@ -1,0 +1,1380 @@
+/* https://shakrmedia.github.io/tuesday/ */
+
+/* @keyframes name
+
+tdFadeIn
+tdFadeOut
+tdFadeInDown
+tdFadeInLeft
+tdFadeInUp
+tdFadeInRight
+tdFadeOutUp
+tdFadeOutRight
+tdFadeOutDown
+tdFadeOutLeft
+
+tdExpandIn
+tdExpandInBounce
+tdExpandOut
+tdExpandOutBounce
+
+tdShrinkIn
+tdShrinkInBounce
+tdShrinkOut
+tdShrinkOutBounce
+
+tdStampIn
+tdStampInSwing
+
+tdSwingIn
+tdSwingOut
+
+tdHingeFlipIn
+tdHingeFlipOut
+
+tdDropInLeft
+tdDropInRight
+
+tdPlopIn
+tdPlopInDown
+tdPlopInUp
+
+*/
+
+/.animated {
+  animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@keyframes tdFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tdFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tdFadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes tdFadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.tdFadeIn {
+  animation-name: tdFadeIn;
+  animation-name: tdFadeIn;
+}
+
+.tdFadeOut {
+  animation-name: tdFadeOut;
+  animation-name: tdFadeOut;
+}
+@keyframes tdFadeInDown {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tdFadeInDown {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tdFadeInLeft {
+  0% {
+    transform: translateX(10px);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes tdFadeInLeft {
+  0% {
+    transform: translateX(10px);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes tdFadeInUp {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tdFadeInUp {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tdFadeInRight {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes tdFadeInRight {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes tdFadeOutUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+}
+@keyframes tdFadeOutUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+}
+@keyframes tdFadeOutRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+}
+@keyframes tdFadeOutRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+}
+@keyframes tdFadeOutDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+@keyframes tdFadeOutDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+@keyframes tdFadeOutLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+}
+@keyframes tdFadeOutLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+}
+
+.tdFadeInDown {
+  animation-name: tdFadeInDown;
+  animation-name: tdFadeInDown;
+}
+
+.tdFadeInLeft {
+  animation-name: tdFadeInLeft;
+  animation-name: tdFadeInLeft;
+}
+
+.tdFadeInUp {
+  animation-name: tdFadeInUp;
+  animation-name: tdFadeInUp;
+}
+
+.tdFadeInRight {
+  animation-name: tdFadeInRight;
+  animation-name: tdFadeInRight;
+}
+
+.tdFadeOutUp {
+  animation-name: tdFadeOutUp;
+  animation-name: tdFadeOutUp;
+}
+
+.tdFadeOutRight {
+  animation-name: tdFadeOutRight;
+  animation-name: tdFadeOutRight;
+}
+
+.tdFadeOutDown {
+  animation-name: tdFadeOutDown;
+  animation-name: tdFadeOutDown;
+}
+
+.tdFadeOutLeft {
+  animation-name: tdFadeOutLeft;
+  animation-name: tdFadeOutLeft;
+}
+@keyframes tdExpandIn {
+  0% {
+    transform: scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdExpandIn {
+  0% {
+    transform: scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdExpandInBounce {
+  0% {
+    transform: scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  70% {
+    transform: scale(1.03);
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+@keyframes tdExpandInBounce {
+  0% {
+    transform: scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  70% {
+    transform: scale(1.03);
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+@keyframes tdExpandOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+@keyframes tdExpandOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+@keyframes tdExpandOutBounce {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  30% {
+    transform: scale(0.95);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+@keyframes tdExpandOutBounce {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  30% {
+    transform: scale(0.95);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+@keyframes tdShrinkIn {
+  0% {
+    transform: scale(1.2);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdShrinkIn {
+  0% {
+    transform: scale(1.2);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdShrinkInBounce {
+  0% {
+    transform: scale(1.2);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  70% {
+    transform: scale(0.95);
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdShrinkInBounce {
+  0% {
+    transform: scale(1.2);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  70% {
+    transform: scale(0.95);
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdShrinkOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+@keyframes tdShrinkOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  100% {
+    transform: scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+@keyframes tdShrinkOutBounce {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  30% {
+    transform: scale(1.03);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+@keyframes tdShrinkOutBounce {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  30% {
+    transform: scale(1.03);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+
+.tdExpandIn {
+  animation-name: tdExpandIn;
+  animation-name: tdExpandIn;
+}
+
+.tdExpandInBounce {
+  animation-name: tdExpandInBounce;
+  animation-name: tdExpandInBounce;
+}
+
+.tdExpandOut {
+  animation-name: tdExpandOut;
+  animation-name: tdExpandOut;
+}
+
+.tdExpandOutBounce {
+  animation-name: tdExpandOutBounce;
+  animation-name: tdExpandOutBounce;
+}
+
+.tdShrinkIn {
+  animation-name: tdShrinkIn;
+  animation-name: tdShrinkIn;
+}
+
+.tdShrinkInBounce {
+  animation-name: tdShrinkInBounce;
+  animation-name: tdShrinkInBounce;
+}
+
+.tdShrinkOut {
+  animation-name: tdShrinkOut;
+  animation-name: tdShrinkOut;
+}
+
+.tdShrinkOutBounce {
+  animation-name: tdShrinkOutBounce;
+  animation-name: tdShrinkOutBounce;
+}
+@keyframes tdStampIn {
+  0% {
+    transform: scale(1.3);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  90% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdStampIn {
+  0% {
+    transform: scale(1.3);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  90% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdStampInSwing {
+  0% {
+    transform: scale(1.3) rotate(-10deg);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  90% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes tdStampInSwing {
+  0% {
+    transform: scale(1.3) rotate(-10deg);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  90% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+
+.tdStampIn {
+  animation-name: tdStampIn;
+  animation-name: tdStampIn;
+}
+
+.tdStampInSwing {
+  animation-name: tdStampInSwing;
+  animation-name: tdStampInSwing;
+}
+@keyframes tdSwingIn {
+  0% {
+    transform: rotate(-10deg) scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  70% {
+    transform: rotate(1deg);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+@keyframes tdSwingIn {
+  0% {
+    transform: rotate(-10deg) scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  70% {
+    transform: rotate(1deg);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+@keyframes tdSwingOut {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  30% {
+    transform: rotate(-1deg);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: rotate(10deg) scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+@keyframes tdSwingOut {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  30% {
+    transform: rotate(-1deg);
+    opacity: 1;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: rotate(10deg) scale(0.85);
+    opacity: 0;
+
+    animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+}
+
+.tdSwingIn {
+  animation-name: tdSwingIn;
+  animation-name: tdSwingIn;
+}
+
+.tdSwingOut {
+  animation-name: tdSwingOut;
+  animation-name: tdSwingOut;
+}
+@keyframes tdHingeFlipIn {
+  0% {
+    transform: perspective(600px) rotateX(0deg);
+    transform-origin: center top;
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  50% {
+    transform: perspective(600px) rotateX(-10deg);
+    transform-origin: center top;
+
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: perspective(600px) rotateX(0deg);
+    transform-origin: center top;
+    opacity: 1;
+
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes tdHingeFlipIn {
+  0% {
+    transform: perspective(600px) rotateX(0deg);
+    transform-origin: center top;
+    opacity: 0;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  50% {
+    transform: perspective(600px) rotateX(-10deg);
+    transform-origin: center top;
+
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: perspective(600px) rotateX(0deg);
+    transform-origin: center top;
+    opacity: 1;
+
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes tdHingeFlipOut {
+  0% {
+    transform: perspective(600px) rotateX(0deg);
+    transform-origin: center top;
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  50% {
+    transform: perspective(600px) rotateX(-10deg);
+    transform-origin: center top;
+
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: perspective(600px) rotateX(0deg);
+    transform-origin: center top;
+    opacity: 0;
+
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes tdHingeFlipOut {
+  0% {
+    transform: perspective(600px) rotateX(0deg);
+    transform-origin: center top;
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+
+  50% {
+    transform: perspective(600px) rotateX(-10deg);
+    transform-origin: center top;
+
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: perspective(600px) rotateX(0deg);
+    transform-origin: center top;
+    opacity: 0;
+
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+.tdHingeFlipIn {
+  animation-name: tdHingeFlipIn;
+  animation-name: tdHingeFlipIn;
+}
+
+.tdHingeFlipOut {
+  animation-name: tdHingeFlipOut;
+  animation-name: tdHingeFlipOut;
+}
+@keyframes tdDropInLeft {
+  0% {
+    opacity: 0;
+  }
+
+  1% {
+    transform: rotate(2deg) translateY(-15px);
+    transform-origin: right bottom;
+    opacity: 1;
+
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: rotate(0) translateY(0);
+    transform-origin: right bottom;
+    opacity: 1;
+
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  75% {
+    transform: rotate(-0.5deg) translateY(0);
+    transform-origin: left bottom;
+
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+  }
+
+  100% {
+    transform: rotate(0) translateY(0);
+    transform-origin: center bottom;
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+}
+@keyframes tdDropInLeft {
+  0% {
+    opacity: 0;
+  }
+
+  1% {
+    transform: rotate(2deg) translateY(-15px);
+    transform-origin: right bottom;
+    opacity: 1;
+
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: rotate(0) translateY(0);
+    transform-origin: right bottom;
+    opacity: 1;
+
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  75% {
+    transform: rotate(-0.5deg) translateY(0);
+    transform-origin: left bottom;
+
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+  }
+
+  100% {
+    transform: rotate(0) translateY(0);
+    transform-origin: center bottom;
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+}
+@keyframes tdDropInRight {
+  0% {
+    opacity: 0;
+  }
+
+  1% {
+    transform: rotate(-2deg) translateY(-15px);
+    transform-origin: left bottom;
+    opacity: 1;
+
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: rotate(0) translateY(0);
+    transform-origin: left bottom;
+    opacity: 1;
+
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  75% {
+    transform: rotate(0.5deg) translateY(0);
+    transform-origin: right bottom;
+
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+  }
+
+  100% {
+    transform: rotate(0) translateY(0);
+    transform-origin: center bottom;
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+}
+@keyframes tdDropInRight {
+  0% {
+    opacity: 0;
+  }
+
+  1% {
+    transform: rotate(-2deg) translateY(-15px);
+    transform-origin: left bottom;
+    opacity: 1;
+
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: rotate(0) translateY(0);
+    transform-origin: left bottom;
+    opacity: 1;
+
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  75% {
+    transform: rotate(0.5deg) translateY(0);
+    transform-origin: right bottom;
+
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+    animation-timing-function: cubic-bezier(0.59, 0, 1, 0.375);
+  }
+
+  100% {
+    transform: rotate(0) translateY(0);
+    transform-origin: center bottom;
+    opacity: 1;
+
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+    animation-timing-function: cubic-bezier(0, 0.59, 0.375, 1);
+  }
+}
+
+.tdDropInLeft {
+  animation-name: tdDropInLeft;
+  animation-name: tdDropInLeft;
+}
+
+.tdDropInRight {
+  animation-name: tdDropInRight;
+  animation-name: tdDropInRight;
+}
+@keyframes tdPlopIn {
+  0% {
+    transform: scale(0.9, 0.9);
+    opacity: 0;
+  }
+
+  10% {
+    transform: scale(0.7, 1.3);
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1.1, 0.95);
+  }
+
+  90% {
+    transform: scale(0.97, 1.05);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdPlopIn {
+  0% {
+    transform: scale(0.9, 0.9);
+    opacity: 0;
+  }
+
+  10% {
+    transform: scale(0.7, 1.3);
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1.1, 0.95);
+  }
+
+  90% {
+    transform: scale(0.97, 1.05);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes tdPlopInDown {
+  0% {
+    transform: scale(0.9, 0.8);
+    transform-origin: center top;
+    opacity: 0;
+  }
+
+  10% {
+    transform: scale(0.8, 1.3);
+    transform-origin: center top;
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1, 0.95);
+    transform-origin: center top;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: center top;
+    opacity: 1;
+  }
+}
+@keyframes tdPlopInDown {
+  0% {
+    transform: scale(0.9, 0.8);
+    transform-origin: center top;
+    opacity: 0;
+  }
+
+  10% {
+    transform: scale(0.8, 1.3);
+    transform-origin: center top;
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1, 0.95);
+    transform-origin: center top;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: center top;
+    opacity: 1;
+  }
+}
+@keyframes tdPlopInUp {
+  0% {
+    transform: scale(0.9, 0.8);
+    transform-origin: center bottom;
+    opacity: 0;
+  }
+
+  10% {
+    transform: scale(0.8, 1.3);
+    transform-origin: center bottom;
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1, 0.95);
+    transform-origin: center bottom;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: center bottom;
+    opacity: 1;
+  }
+}
+@keyframes tdPlopInUp {
+  0% {
+    transform: scale(0.9, 0.8);
+    transform-origin: center bottom;
+    opacity: 0;
+  }
+
+  10% {
+    transform: scale(0.8, 1.3);
+    transform-origin: center bottom;
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(1, 0.95);
+    transform-origin: center bottom;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: center bottom;
+    opacity: 1;
+  }
+}
+
+.tdPlopIn {
+  animation-name: tdPlopIn;
+  animation-name: tdPlopIn;
+}
+
+.tdPlopInDown {
+  animation-name: tdPlopInDown;
+  animation-name: tdPlopInDown;
+}
+
+.tdPlopInUp {
+  animation-name: tdPlopInUp;
+  animation-name: tdPlopInUp;
+}

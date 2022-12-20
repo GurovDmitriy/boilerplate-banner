@@ -1,0 +1,86 @@
+.bgstock(@imgpath) {
+  background-image: url("@{imgpath}");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+}
+
+.bgfull(@imgpath, @delim) {
+  width: round((image-width(@imgpath) / @delim));
+  height: round((image-height(@imgpath) / @delim));
+
+  background-image: url("@{imgpath}");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+}
+
+.inner-btn(@border-radius, @background-color: none) {
+  .position(50%, 50%, 10);
+
+  width: 100%;
+  height: 100%;
+
+  background-color: @bc;
+
+  border-radius: @br;
+
+  transform: translate(-50%, -50%) scale3d(1, 1, 1);
+
+  transition: transform 0.3s;
+
+  will-change: transform;
+
+  &:hover {
+    transform: translate(-50%, -50%) scale3d(1.02, 1.02, 1.02);
+  }
+}
+
+.imgsize(@imgpath, @delim) {
+  width: round((image-width(@imgpath) / @delim));
+  height: round((image-height(@imgpath) / @delim));
+}
+
+.position(@top, @left, @zindex) {
+  position: absolute;
+  top: @top;
+  left: @left;
+  z-index: @zindex;
+}
+
+/* spritefix */
+
+.spritefix-width(@sprite) {
+  width: round((extract(@sprite, 5) / 2));
+}
+
+.spritefix-height(@sprite) {
+  height: round((extract(@sprite, 6) / 2));
+}
+
+.spritefix-position(@sprite) {
+  @sprite-offset-x: round((extract(@sprite, 3) / 2));
+  @sprite-offset-y: round((extract(@sprite, 4) / 2));
+
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.spritefix(@sprite) {
+  .spritefix-width(@sprite);
+  .spritefix-height(@sprite);
+
+  background-image: url("../image/sprite.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: round((@spritesheet-width / 2));
+  .spritefix-position(@sprite);
+}
+
+.spritesfix(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .spritefix(@sprite);
+  }
+  .spritesfix(@sprites, @i + 1);
+}

@@ -1,0 +1,34 @@
+{
+  "creative-display": {
+    "href": "#",
+    "id": "click_area",
+    "target": "_blank"
+  },
+
+  "creative-direct": {
+    "href": "#",
+    "id": "click_area",
+    "target": "_blank"
+  },
+
+  "creative-adfox": {
+    "href": "%banner.reference_user1%",
+    "target": "%banner.target%",
+    "nonce": "%request.eid1%"
+  },
+
+  "creative-avito": {
+    "href": "%% CLICK_URL_UNESC%%%%DEST_URL %%",
+    "target": "_blank"
+  },
+
+  "creative-rambler": {
+    "href": "%clickurl_1%",
+    "target": "_blank"
+  },
+
+  "creative-admitad": {
+    "href": "%link1%",
+    "target": "_blank"
+  }
+}

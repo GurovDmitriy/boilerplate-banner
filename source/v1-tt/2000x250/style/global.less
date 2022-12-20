@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+
+  color: #000000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+}
+
+.creative {
+  position: relative;
+
+  display: block;
+  width: @creativeWidth;
+  height: @mainHeight;
+  overflow: hidden;
+
+  color: inherit;
+  text-decoration: none;
+
+  background-color: @mainBg;
+  cursor: pointer;
+}
+
+.creative__inner {
+  position: absolute;
+  right: round((-@mainWidth / 2));
+  left: round((-@mainWidth / 2));
+  z-index: 1;
+
+  width: @mainWidth;
+  height: @mainHeight;
+  margin: 0 auto;
+}
+
+.creative__content {
+  position: relative;
+
+  width: @contentWidth;
+  height: 100%;
+  margin: 0 auto;
+}
+
+// .spritesfix(@spritesheet-sprites);
